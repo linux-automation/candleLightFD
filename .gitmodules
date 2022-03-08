@@ -1,0 +1,3 @@
+[submodule "kicad-ptx-lib"]
+	path = kicad-ptx-lib
+	url = git@gitlab.pengutronix.de:hardware/kicad-ptx-lib.git
