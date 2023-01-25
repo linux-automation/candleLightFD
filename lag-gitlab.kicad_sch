@@ -10,7 +10,7 @@
     (rev "R${release}")
     (company "${company}")
     (comment 1 "${release_state}")
-    (comment 2 "${prefix}-S${type_number}-R${release}-V${sch_variant}-C${ci}")
+    (comment 2 "${prefix}-S${type_number}-R${release}-V${sch_variant}-C${sch_ci}")
     (comment 3 "hardware/${prefix}-S${type_number}_${short_desciption}")
   )
 
