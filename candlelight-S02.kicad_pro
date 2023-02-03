@@ -344,7 +344,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lag-gitlab.kicad_pro",
+    "filename": "candlelight-S02.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -431,13 +431,13 @@
     "company": "Linux Automation GmbH",
     "pcb_ci": "00",
     "pcb_variant": "01",
-    "prefix": "template",
+    "prefix": "candlelight",
     "release": "01",
     "release_state": "draft",
     "sch_ci": "00",
     "sch_variant": "01",
-    "short_desciption": "template_for_LAG_projects",
-    "title": "Template Project",
+    "short_desciption": "candlelight_fd",
+    "title": "Candlelight FD",
     "type_number": "01"
   }
 }
