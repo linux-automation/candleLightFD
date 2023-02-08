@@ -344,7 +344,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "candlelight-S02.kicad_pro",
+    "filename": "candleLightfd-S01.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -425,18 +425,26 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "c754f27f-d753-4109-9c59-639a39396c66",
+      "MCU"
+    ],
+    [
+      "6fe590b4-1409-4d29-8211-13c20905936c",
+      "PSU"
     ]
   ],
   "text_variables": {
     "company": "Linux Automation GmbH",
     "pcb_ci": "00",
     "pcb_variant": "01",
-    "prefix": "candlelight",
+    "prefix": "candlelightfd",
     "release": "01",
     "release_state": "draft",
     "sch_ci": "00",
     "sch_variant": "01",
-    "short_desciption": "candlelight_fd",
+    "short_desciption": "candlelightfd",
     "title": "Candlelight FD",
     "type_number": "01"
   }
