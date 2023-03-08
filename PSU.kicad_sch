@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 37ced017-aa11-4421-9987-ed05d05a33ce)
 
@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (text_box "Power:\n - MCU: 13mA (64MHz, DBG, FDCAN1/2, GPIO[A..D], TIM1, USB)\n - LEDs: 2x 1mA ??\n - CAN: 2x ??"
+    (at 196.85 31.75 0) (size 68.58 41.91)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 99999717-edd1-43c1-8c19-ee3275c9002f)
+  )
+
+  (text "MCP1754ST-3302E/MB" (at 147.32 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8f2e1f4c-e1ba-41ec-a723-a799e3409d65)
+  )
 )
