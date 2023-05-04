@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "Connector_Wago")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Connector_Wago.pretty")(options "")(descr ""))
   (lib (name "Socket_GCT")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Socket_GCT.pretty")(options "")(descr ""))
   (lib (name "Inductor_TDK")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Inductor_TDK.pretty")(options "")(descr ""))
@@ -54,4 +55,5 @@
   (lib (name "qfn")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/qfn.pretty")(options "")(descr ""))
   (lib (name "Switch_Reichelt")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Switch_Reichelt.pretty")(options "")(descr ""))
   (lib (name "Connector_generic")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Connector_generic.pretty")(options "")(descr ""))
+  (lib (name "d-sub")(type "KiCad")(uri "${KIPRJMOD}/lib/pretty/d-sub.pretty")(options "")(descr ""))
 )

@@ -449,6 +449,10 @@
     [
       "6fe590b4-1409-4d29-8211-13c20905936c",
       "PSU"
+    ],
+    [
+      "77431ed0-1b80-4c54-96b3-7ca17dd7479a",
+      "CAN Transiver"
     ]
   ],
   "text_variables": {
