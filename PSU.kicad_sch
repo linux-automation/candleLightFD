@@ -374,7 +374,7 @@
   (symbol (lib_id "powerport:+3V3") (at 176.53 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1222e10b-88a7-474d-aba8-f235f205bc6d)
-    (property "Reference" "#PWR03" (at 176.53 92.71 0)
+    (property "Reference" "#PWR026" (at 176.53 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 176.53 85.09 0)
@@ -390,7 +390,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -418,7 +418,7 @@
           (reference "#PWR04") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -427,7 +427,7 @@
   (symbol (lib_id "powerport:GND") (at 119.38 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aeebeef8-c599-441e-aac4-fd7b29c2b5f3)
-    (property "Reference" "#PWR02" (at 119.38 104.14 0)
+    (property "Reference" "#PWR024" (at 119.38 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 105.41 0)
@@ -443,7 +443,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -452,7 +452,7 @@
   (symbol (lib_id "Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor") (at 163.83 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9cf2761-58d9-4f83-8468-060d087692f9)
-    (property "Reference" "C2" (at 167.64 92.7227 0)
+    (property "Reference" "C8" (at 167.64 92.7227 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor" (at 164.465 97.79 0)
@@ -490,7 +490,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "C2") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -499,7 +499,7 @@
   (symbol (lib_id "Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor") (at 119.38 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf32636e-e8e6-4306-931c-25b762146193)
-    (property "Reference" "C1" (at 123.19 92.7227 0)
+    (property "Reference" "C7" (at 123.19 92.7227 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor" (at 120.015 97.79 0)
@@ -537,7 +537,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "C1") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -613,7 +613,7 @@
   (symbol (lib_id "powerport:GND") (at 163.83 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5748adc-0a0b-4179-9429-f24cfaaa0c35)
-    (property "Reference" "#PWR01" (at 163.83 104.14 0)
+    (property "Reference" "#PWR025" (at 163.83 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 105.41 0)
@@ -629,7 +629,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )

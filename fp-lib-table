@@ -56,4 +56,5 @@
   (lib (name "Switch_Reichelt")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Switch_Reichelt.pretty")(options "")(descr ""))
   (lib (name "Connector_generic")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/pretty/Connector_generic.pretty")(options "")(descr ""))
   (lib (name "d-sub")(type "KiCad")(uri "${KIPRJMOD}/lib/pretty/d-sub.pretty")(options "")(descr ""))
+  (lib (name "Connector_Tag-Connect")(type "KiCad")(uri "${KIPRJMOD}/kicad-ptx-lib/pretty/Connector_Tag-Connect.pretty")(options "")(descr ""))
 )
