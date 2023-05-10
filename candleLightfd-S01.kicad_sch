@@ -1238,6 +1238,10 @@
     (stroke (width 0) (type default))
     (uuid 85884ff2-3569-403d-a270-57f04a4a4921)
   )
+  (wire (pts (xy 20.32 85.09) (xy 21.59 85.09))
+    (stroke (width 0) (type default))
+    (uuid 86078a56-2302-423e-9d20-f5586ba5683e)
+  )
   (wire (pts (xy 232.41 142.24) (xy 163.83 142.24))
     (stroke (width 0) (type default))
     (uuid 8aeb4352-c633-4af7-aa1a-3c0b48f1e0ae)
@@ -2238,6 +2242,31 @@
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "powerport:GND") (at 20.32 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ea18a195-0ef8-4ac4-9b98-545b68f43344)
+    (property "Reference" "#PWR039" (at 20.32 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 20.32 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 20.32 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (at 20.32 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid c79adeee-ae4b-4d98-9478-887d0c9a8bdd))
+    (instances
+      (project "candleLightfd-S01"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR039") (unit 1)
         )
       )
     )
