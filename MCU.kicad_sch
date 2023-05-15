@@ -785,6 +785,7 @@
     )
   )
 
+
   (junction (at 36.83 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 19614d10-10cd-4180-b7eb-c5e5a96db9bb)
   )
@@ -801,9 +802,6 @@
     (uuid 5c733efe-3d5d-4674-af5f-f31b3d37c0ce)
   )
   (junction (at 128.27 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid 7a3ee61f-8e30-4884-9c77-84ec97579c5a)
-  )
-  (junction (at 116.84 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 86277781-27c9-412d-8318-6cf084721660)
   )
   (junction (at 81.28 193.04) (diameter 0) (color 0 0 0 0)
@@ -822,13 +820,12 @@
   (no_connect (at 160.02 111.76) (uuid 0faff143-65cb-4027-8c26-1c28c0af3e26))
   (no_connect (at 111.76 86.36) (uuid 11616183-bb97-4d34-bd03-8cedfaf3ac4b))
   (no_connect (at 63.5 69.85) (uuid 136cc2eb-3a5a-4c47-bd8a-2f20df23889b))
-  (no_connect (at 63.5 88.9) (uuid 186f5eaa-d116-48c1-adcc-5fcbf9b006ab))
   (no_connect (at 160.02 106.68) (uuid 1ef4d7e7-5f4f-43a3-aa57-ba2a3e01a466))
   (no_connect (at 111.76 67.31) (uuid 216191cd-01b4-4dce-a8b1-3e63db2ef623))
   (no_connect (at 69.85 120.65) (uuid 21b61db9-1818-4a0f-b885-35a10c6043a3))
   (no_connect (at 69.85 118.11) (uuid 2cf485ba-8175-43e3-90fa-dadb959fdc43))
   (no_connect (at 63.5 76.2) (uuid 3577f0f4-1673-42b4-965a-38f1cc97a30d))
-  (no_connect (at 111.76 53.34) (uuid 3f5beeff-b17b-453a-a387-467e255f21e2))
+  (no_connect (at 111.76 72.39) (uuid 3b57d940-885f-402b-9cad-b95e917853e2))
   (no_connect (at 111.76 78.74) (uuid 41bec680-fd02-4083-8629-f487373d1557))
   (no_connect (at 63.5 72.39) (uuid 46b26038-bb64-4af7-ac9d-92a685de8d8f))
   (no_connect (at 160.02 109.22) (uuid 4f329137-0802-4f30-bda8-19f31616a64e))
@@ -844,6 +841,7 @@
   (no_connect (at 63.5 53.34) (uuid ac92b3f4-ebe4-4ffb-ad24-656c33e07962))
   (no_connect (at 63.5 60.96) (uuid b04498b6-3d27-42d9-9abf-23d1507866ae))
   (no_connect (at 111.76 88.9) (uuid b208e001-b3b2-443f-a08e-0d4689e829c6))
+  (no_connect (at 63.5 50.8) (uuid b38ad2df-f25f-470e-8675-35af5bf69d79))
   (no_connect (at 63.5 66.04) (uuid bb35375a-96f6-43fb-9e04-b280adf482b2))
   (no_connect (at 111.76 76.2) (uuid c9a39771-590e-4e31-9ebc-d93610ec4245))
   (no_connect (at 50.8 143.51) (uuid cac2b2d3-f73e-4406-8231-31b3578e5480))
@@ -890,11 +888,11 @@
     (stroke (width 0) (type default))
     (uuid 134fbbc8-90e9-4a5a-8c5c-eeec46d37bda)
   )
-  (wire (pts (xy 36.83 93.98) (xy 55.88 93.98))
+  (wire (pts (xy 36.83 93.98) (xy 46.99 93.98))
     (stroke (width 0) (type default))
     (uuid 16a9568d-e2e6-4320-9862-7e3c4d83d936)
   )
-  (wire (pts (xy 106.68 72.39) (xy 111.76 72.39))
+  (wire (pts (xy 58.42 88.9) (xy 63.5 88.9))
     (stroke (width 0) (type default))
     (uuid 19928aa8-8865-487a-96b7-fc23e5c7a2a1)
   )
@@ -930,13 +928,9 @@
     (stroke (width 0) (type default))
     (uuid 342b5c7b-1283-4eea-9b61-900536c2f344)
   )
-  (wire (pts (xy 55.88 93.98) (xy 55.88 86.36))
+  (wire (pts (xy 46.99 93.98) (xy 46.99 86.36))
     (stroke (width 0) (type default))
     (uuid 38f9d951-5d4f-490f-881c-63b784e8a93f)
-  )
-  (wire (pts (xy 116.84 128.27) (xy 128.27 128.27))
-    (stroke (width 0) (type default))
-    (uuid 3a736e8a-6c2e-4f0a-89ed-191fa3c42199)
   )
   (wire (pts (xy 90.17 193.04) (xy 96.52 193.04))
     (stroke (width 0) (type default))
@@ -962,7 +956,7 @@
     (stroke (width 0) (type default))
     (uuid 501a307b-8dd0-4cc7-8004-3ba19db2c6b4)
   )
-  (wire (pts (xy 55.88 86.36) (xy 63.5 86.36))
+  (wire (pts (xy 46.99 86.36) (xy 63.5 86.36))
     (stroke (width 0) (type default))
     (uuid 50547251-48c1-4e14-87e7-27f34a47f299)
   )
@@ -982,7 +976,7 @@
     (stroke (width 0) (type default))
     (uuid 792ee670-ae9b-470e-9463-6fd604cc8224)
   )
-  (wire (pts (xy 116.84 125.73) (xy 116.84 128.27))
+  (wire (pts (xy 128.27 125.73) (xy 128.27 128.27))
     (stroke (width 0) (type default))
     (uuid 7ec1875f-ec11-4c56-abea-3cacec4e4401)
   )
@@ -1005,14 +999,6 @@
   (wire (pts (xy 92.71 181.61) (xy 96.52 181.61))
     (stroke (width 0) (type default))
     (uuid 93c67896-4477-490c-b401-6bbdd85f1bc7)
-  )
-  (wire (pts (xy 116.84 142.24) (xy 116.84 143.51))
-    (stroke (width 0) (type default))
-    (uuid aae928e0-c11f-41e2-84f5-dd51de0bc2f3)
-  )
-  (wire (pts (xy 116.84 128.27) (xy 116.84 134.62))
-    (stroke (width 0) (type default))
-    (uuid ae7a3083-2dd0-4fa4-b1e2-b3f69c294f29)
   )
   (wire (pts (xy 153.67 128.27) (xy 156.21 128.27))
     (stroke (width 0) (type default))
@@ -1074,7 +1060,7 @@
     (stroke (width 0) (type default))
     (uuid efff17bb-bf5e-4541-8ca2-538198874e1c)
   )
-  (wire (pts (xy 59.69 50.8) (xy 63.5 50.8))
+  (wire (pts (xy 107.95 53.34) (xy 111.76 53.34))
     (stroke (width 0) (type default))
     (uuid f364fac8-cfb7-4cec-a6e6-61cf5830f067)
   )
@@ -1124,7 +1110,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1ed835ca-a023-4b2c-b75a-60dd81312eb1)
   )
-  (hierarchical_label "CAN1_S" (shape output) (at 106.68 72.39 180) (fields_autoplaced)
+  (hierarchical_label "CAN1_S" (shape output) (at 58.42 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 21da2b4d-50b5-471c-85d2-e3983b5d7c77)
   )
@@ -1132,7 +1118,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 35c6b6e5-6947-43d7-8223-6597bb5d4765)
   )
-  (hierarchical_label "CAN2_S" (shape output) (at 59.69 50.8 180) (fields_autoplaced)
+  (hierarchical_label "CAN2_S" (shape output) (at 107.95 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3de10bb9-290a-42bb-9ef3-4423e87e7ec3)
   )
@@ -1164,7 +1150,7 @@
   (symbol (lib_id "powerport:GND") (at 128.27 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01b26596-2cbe-4794-84d6-a250e4529154)
-    (property "Reference" "#PWR020" (at 128.27 146.05 0)
+    (property "Reference" "#PWR022" (at 128.27 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 147.32 0)
@@ -1180,7 +1166,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1189,7 +1175,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 176.53 109.22 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 197546b4-a533-4599-b0d4-67473abe9e89)
-    (property "Reference" "U5" (at 189.23 107.315 0)
+    (property "Reference" "U1" (at 189.23 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 189.23 109.855 0)
@@ -1270,7 +1256,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -1371,7 +1357,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 82.55 116.84 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31436657-9dfc-4c50-88e1-528fb38f9aa7)
-    (property "Reference" "U5" (at 91.44 114.935 0)
+    (property "Reference" "U1" (at 91.44 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 91.44 117.475 0)
@@ -1452,7 +1438,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 4)
+          (reference "U1") (unit 4)
         )
       )
     )
@@ -1461,7 +1447,7 @@
   (symbol (lib_id "powerport:GND") (at 107.95 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31f0c13e-b7c7-46d4-a8ca-3d061d1a9074)
-    (property "Reference" "#PWR017" (at 107.95 189.23 0)
+    (property "Reference" "#PWR020" (at 107.95 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 190.5 0)
@@ -1477,7 +1463,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1524,35 +1510,10 @@
     )
   )
 
-  (symbol (lib_id "powerport:GND") (at 116.84 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4c2a1ed1-ecd5-4e6f-8167-df0024e43140)
-    (property "Reference" "#PWR019" (at 116.84 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 116.84 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 116.84 143.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Datasheet" "" (at 116.84 143.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 0daae7da-f507-46d6-9c37-a7f753dfc497))
-    (instances
-      (project "candleLightfd-S01"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "powerport:GND") (at 139.7 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c9d2155-9973-451d-9e90-767db6a92224)
-    (property "Reference" "#PWR021" (at 139.7 146.05 0)
+    (property "Reference" "#PWR023" (at 139.7 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 147.32 0)
@@ -1568,32 +1529,32 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "powerport:+3V3") (at 116.84 125.73 0) (unit 1)
+  (symbol (lib_id "powerport:+3V3") (at 128.27 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5018647e-94b2-4a60-8fdd-3bba2b84aaf8)
-    (property "Reference" "#PWR018" (at 116.84 129.54 0)
+    (property "Reference" "#PWR021" (at 128.27 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 116.84 121.92 0)
+    (property "Value" "+3V3" (at 128.27 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 125.73 0)
+    (property "Footprint" "" (at 128.27 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Datasheet" "" (at 116.84 125.73 0)
+    (property "Datasheet" "" (at 128.27 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 5d72bec2-9bf5-4837-b2c1-6eeb4433e589))
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1602,7 +1563,7 @@
   (symbol (lib_id "powerport:+3V3") (at 33.02 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54fba219-24c6-482a-9b41-148db4856540)
-    (property "Reference" "#PWR038" (at 33.02 139.7 0)
+    (property "Reference" "#PWR016" (at 33.02 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 33.02 132.08 0)
@@ -1618,7 +1579,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1627,7 +1588,7 @@
   (symbol (lib_id "powerport:GND") (at 30.48 140.97 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 594f3ab9-8c76-4504-a7ed-f85fa8353309)
-    (property "Reference" "#PWR037" (at 27.94 140.97 0)
+    (property "Reference" "#PWR015" (at 27.94 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 141.605 90)
@@ -1643,7 +1604,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1652,7 +1613,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 130.81 175.26 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6729eaf5-70ed-456f-b2c8-0c14b12f8b2a)
-    (property "Reference" "U5" (at 140.97 173.355 0)
+    (property "Reference" "U1" (at 140.97 173.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 140.97 175.895 0)
@@ -1733,7 +1694,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 6)
+          (reference "U1") (unit 6)
         )
       )
     )
@@ -1742,7 +1703,7 @@
   (symbol (lib_id "multicomp:100n") (at 128.27 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 678c2c64-c5be-4b02-b0ba-2f29b06f4daf)
-    (property "Reference" "C5" (at 132.08 136.5377 0)
+    (property "Reference" "C4" (at 132.08 136.5377 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 132.08 139.0777 0)
@@ -1774,7 +1735,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1783,7 +1744,7 @@
   (symbol (lib_id "multicomp:100n") (at 139.7 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72d3b2f8-2a7b-4e37-9aff-bbc693f0dbc8)
-    (property "Reference" "C6" (at 143.51 136.5377 0)
+    (property "Reference" "C5" (at 143.51 136.5377 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 143.51 139.0777 0)
@@ -1815,48 +1776,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "multicomp:100n") (at 116.84 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 73a4cccb-8a92-40e6-a8ea-8e4a7261489d)
-    (property "Reference" "C4" (at 120.65 136.5377 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 120.65 139.0777 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitors_SMD:C_0603" (at 117.8052 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.farnell.com/datasheets/1901289.pdf" (at 120.396 144.399 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MC0603B104K500CT" (at 120.015 133.35 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Manufacturer" "Multicomp" (at 122.555 130.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Fit" "fit: " (at 120.65 140.9827 0)
-      (effects (font (size 0.635 0.635)) (justify left))
-    )
-    (property "State" "legacy" (at 124.46 142.24 0)
-      (effects (font (size 0.635 0.635)) hide)
-    )
-    (property "Package" "0603" (at 116.84 138.43 0)
-      (effects (font (size 0.635 0.635)) hide)
-    )
-    (pin "1" (uuid a8ab4a6b-7dbe-427b-96bf-391de4d976a2))
-    (pin "2" (uuid 4c3bb0e1-7db9-4505-9383-874fcf884e62))
-    (instances
-      (project "candleLightfd-S01"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1909,7 +1829,7 @@
   (symbol (lib_id "powerport:GND") (at 153.67 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d78dd33-3e4d-40f7-adbd-a705ec9db0a0)
-    (property "Reference" "#PWR022" (at 153.67 144.78 0)
+    (property "Reference" "#PWR024" (at 153.67 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 146.05 0)
@@ -1925,7 +1845,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1934,7 +1854,7 @@
   (symbol (lib_id "powerport:GND") (at 36.83 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a28619ce-6db9-4c6a-b773-dcb09029806a)
-    (property "Reference" "#PWR015" (at 36.83 107.95 0)
+    (property "Reference" "#PWR018" (at 36.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 109.22 0)
@@ -1950,7 +1870,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1959,7 +1879,7 @@
   (symbol (lib_id "powerport:+3V3") (at 36.83 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3c567ca-6223-4ee9-8d90-d34f43c651aa)
-    (property "Reference" "#PWR014" (at 36.83 86.36 0)
+    (property "Reference" "#PWR017" (at 36.83 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 36.83 78.74 0)
@@ -1975,7 +1895,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1984,7 +1904,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 170.18 134.62 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfef1a52-2594-40d1-818a-88ea6f0971cb)
-    (property "Reference" "U5" (at 180.34 132.715 0)
+    (property "Reference" "U1" (at 180.34 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 180.34 135.255 0)
@@ -2065,7 +1985,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 5)
+          (reference "U1") (unit 5)
         )
       )
     )
@@ -2120,7 +2040,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 124.46 68.58 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbf2468e-6d7e-4856-a7d6-39d1138fc0bd)
-    (property "Reference" "U5" (at 133.35 66.675 0)
+    (property "Reference" "U1" (at 133.35 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 133.35 69.215 0)
@@ -2201,7 +2121,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -2251,7 +2171,7 @@
   (symbol (lib_id "powerport:GND") (at 81.28 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6ea5a77-403f-4cae-aaf1-e2f9ea1466c3)
-    (property "Reference" "#PWR016" (at 81.28 196.85 0)
+    (property "Reference" "#PWR019" (at 81.28 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 196.85 0)
@@ -2267,7 +2187,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2323,7 +2243,7 @@
   (symbol (lib_id "ST:STM32G0B1CBT") (at 77.47 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e82986a2-b2b2-4361-96ed-1670d23e767d)
-    (property "Reference" "U5" (at 86.36 66.675 0)
+    (property "Reference" "U1" (at 86.36 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G0B1CBT" (at 86.36 69.215 0)
@@ -2404,7 +2324,7 @@
     (instances
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
