@@ -99,6 +99,9 @@
       (property "Fit" "fit: " (at 0 5.08 0)
         (effects (font (size 0.635 0.635)) hide)
       )
+      (property "Package" "SMT TP" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
       (property "ki_description" "PCB SMD Testpoint, 1mm diameter" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -504,6 +507,9 @@
     (property "Fit" "fit: " (at 118.11 91.44 0)
       (effects (font (size 0.635 0.635)) hide)
     )
+    (property "Package" "SMT TP" (at 123.19 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6ad2b955-9432-4937-ab40-4d808a940b9b))
     (instances
       (project "candleLightfd-S01"
@@ -541,6 +547,9 @@
     (property "Fit" "fit: " (at 127 118.11 0)
       (effects (font (size 0.635 0.635)) hide)
     )
+    (property "Package" "SMT TP" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0e337fb7-e98a-4c7e-b5df-1984189784ec))
     (instances
       (project "candleLightfd-S01"
@@ -577,6 +586,9 @@
     )
     (property "Fit" "fit: " (at 163.83 91.44 0)
       (effects (font (size 0.635 0.635)) hide)
+    )
+    (property "Package" "SMT TP" (at 168.91 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72a7092a-a8a7-4045-b76e-7664b1ca8cf2))
     (instances
