@@ -1,4 +1,4 @@
-363694911315620
+367057491195533
 Board_Config_Generic
 CUTTABLE_TRACE_03MM
 
@@ -923,6 +923,13 @@ resistor 2010
 0
 2
 2
+Resistors_TE
+SQM_5_vertical
+
+
+0
+2
+2
 Socket_Amphenol
 61729-0011BLF
 
@@ -1182,6 +1189,13 @@ D-SUB-9_side
 0
 9
 9
+espressif
+ESP32_DevKitC_V4
+ESP32 DevKitC V4
+
+0
+38
+38
 mechanical
 LAYERSTACK_TB
 
