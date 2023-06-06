@@ -1328,12 +1328,6 @@
     (uuid f6a733ac-2049-42e2-8567-806241debf5f)
   )
 
-  (text "TODO:\n - LDO MCP1754ST-3302E/MB\n - LED new chem?\n - CAN TJA1051TK/3 oder was wir da haben."
-    (at 172.72 170.18 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 748478a5-eb78-4c6c-b9c7-a74a72c3030c)
-  )
-
   (label "CAN2_L" (at 238.76 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f34cad2-31e0-4d24-bd8f-72bd0a6502dd)

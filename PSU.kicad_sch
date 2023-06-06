@@ -424,11 +424,6 @@
     (uuid 99999717-edd1-43c1-8c19-ee3275c9002f)
   )
 
-  (text "MCP1754ST-3302E/MB" (at 147.32 69.85 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8f2e1f4c-e1ba-41ec-a723-a799e3409d65)
-  )
-
   (symbol (lib_id "powerport:+3V3") (at 176.53 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1222e10b-88a7-474d-aba8-f235f205bc6d)
