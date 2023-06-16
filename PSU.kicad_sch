@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Power")
+    (date "2023-06-16")
+    (rev "R${release}")
+    (company "${company}")
+    (comment 1 "${release_state}")
+    (comment 2 "${prefix}-S${type_number}-R${release}-V${sch_variant}-C${sch_ci}")
+    (comment 3 "hardware/${prefix}-S${type_number}_${short_desciption}")
+  )
+
   (lib_symbols
     (symbol "Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -363,6 +373,9 @@
   (junction (at 160.02 91.44) (diameter 0) (color 0 0 0 0)
     (uuid ab775905-b20d-4151-9e4e-d7b34df44b60)
   )
+  (junction (at 132.08 118.11) (diameter 0) (color 0 0 0 0)
+    (uuid c17d6573-64d7-4321-b64a-8254881dc2da)
+  )
   (junction (at 119.38 91.44) (diameter 0) (color 0 0 0 0)
     (uuid da17e5a9-d5c2-4d75-a6f5-20cb8045c307)
   )
@@ -480,6 +493,31 @@
       (project "candleLightfd-S01"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
           (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "powerport:PWR_FLAG") (at 132.08 118.11 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 198cedd0-d6fd-4a00-8838-7f8ef5cd4d6b)
+    (property "Reference" "#FLG03" (at 129.794 118.618 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 129.54 118.11 90)
+      (effects (font (size 0.3048 0.3048)) (justify left))
+    )
+    (property "Footprint" "" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Datasheet" "" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 1fccb01a-d90f-4cf2-a09d-6facb983511c))
+    (instances
+      (project "candleLightfd-S01"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/6fe590b4-1409-4d29-8211-13c20905936c"
+          (reference "#FLG03") (unit 1)
         )
       )
     )

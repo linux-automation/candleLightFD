@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MCU")
+    (date "2023-06-16")
+    (rev "R${release}")
+    (company "${company}")
+    (comment 1 "${release_state}")
+    (comment 2 "${prefix}-S${type_number}-R${release}-V${sch_variant}-C${sch_ci}")
+    (comment 3 "hardware/${prefix}-S${type_number}_${short_desciption}")
+  )
+
   (lib_symbols
     (symbol "Cap_5Percent_E24_0603_C0G_50V_-40C-125C:6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
