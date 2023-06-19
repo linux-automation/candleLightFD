@@ -7,8 +7,9 @@ Schematic Related Topics
 Allgemeines
 -----------
 
-* [ ] Braucht der Reset-Pin einen Pull-Up?
-* [ ] Testpunkte für RTS, CTS, falls da genug Platz ist?
+* [x] Braucht der Reset-Pin einen Pull-Up?
+      Nein hat ein internen pullup von 40k.
+* [x] Testpunkte für RX, TX, falls da genug Platz ist?
 
 
 Drawing
@@ -77,7 +78,7 @@ General
 * [x] Does a DRC return no severe errors?
 * [x] Are all libraries used from a local checkout of the kicad-ptx-lib or
       a projekt-local library? (Do not use absolute or system-wide paths.)
-* [ ] Have all changes been imported from the schematic?
+* [x] Have all changes been imported from the schematic?
 * [x] Is the auxiliary origin reference point set to a corner of the PCB?
       Preferably on the metric grid.
       Preferably on the lower left corner of the PCB.
