@@ -1,0 +1,26 @@
+Company: Linux Automation GmbH
+PCBA-Name: candleLightfd-S01.kicad_sch
+PCBA-Revision: R01
+Placement-Version: 01
+PCBA-Title: Candlelight FD
+Release-State: release
+Release-Date: 2023-06-16
+
+count,reference,manufacturer,mpn,value,description,capratedvoltage,color,datasheet,datasheet2,displayname,displayvalue,fit,footprint,libref,libsource,package,state,tool
+2.0,"C10, C8",any,any,100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor,"100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor",50V,nan,"nan, nan","nan, nan","nan, nan",100n,"all, fit: ",Capacitors_SMD:C_0603,C,Cap_10Percent_E24_0603_X7R_50V_-40C-125C:100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor,0603,legacy,"nan, nan"
+2.0,"C7, C6",any,any,10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor,"10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor",10V,nan,"nan, nan","nan, nan","nan, nan",10u,"all, fit: ",Capacitors_SMD:C_0805,C,Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor,0805,legacy,"nan, nan"
+2.0,"C2, C1",any,any,6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor,"6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor",50V,nan,"nan, nan","nan, nan","nan, nan",6p2,"all, fit: ",Capacitors_SMD:C_0603,C,Cap_5Percent_E24_0603_C0G_50V_-40C-125C:6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor,0603,legacy,"nan, nan"
+1.0,D3,Kingbright,KPT-1608EC,KPT-1608EC,"0603, LED, red, 20mA, 2.0V, 15mcd, 150°","nan, nan",red,$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608EC.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",LEDs_Kingbright:LED_Kingbright_0603,D,Kingbright:KPT-1608EC,0603,reviewed,"nan, nan"
+2.0,"D2, D1",Kingbright,KPT-1608SGC,KPT-1608SGC,"0603, LED, green, 20mA, 2.2V, 12mcd, 120°","nan, nan",green,$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",LEDs_Kingbright:LED_Kingbright_0603,D,Kingbright:KPT-1608SGC,0603,reviewed,"nan, nan"
+1.0,R6,any,any,10k_0603_100mW_1%_E24_Chip-Resistor,"10k, 0603, 100mW, 1%, E24, Chip Resistor","nan, nan",nan,"nan, nan","nan, nan","nan, nan",10k,"all, fit: ",Resistors_SMD:R_0603,R,Res_1Percent_E24_0603_100mW_-40C-90C:10k_0603_100mW_1%_E24_Chip-Resistor,0603,legacy,"nan, nan"
+3.0,"R4, R3, R5",any,any,1k_0603_100mW_1%_E24_Chip-Resistor,"1k, 0603, 100mW, 1%, E24, Chip Resistor","nan, nan",nan,"nan, nan","nan, nan","nan, nan",1k,"all, fit: ",Resistors_SMD:R_0603,R,Res_1Percent_E24_0603_100mW_-40C-90C:1k_0603_100mW_1%_E24_Chip-Resistor,0603,legacy,"nan, nan"
+2.0,"R2, R1",any,any,5k1_0603_100mW_1%_E24_Chip-Resistor,"5k1, 0603, 100mW, 1%, E24, Chip Resistor","nan, nan",nan,"nan, nan","nan, nan","nan, nan",5k1,"all, fit: ",Resistors_SMD:R_0603,R,Res_1Percent_E24_0603_100mW_-40C-90C:5k1_0603_100mW_1%_E24_Chip-Resistor,0603,legacy,"nan, nan"
+1.0,U1,ST,STM32G0B1CBT,STM32G0B1CBT,"Cortex-M0+, ROM: 128KB, RAM: 144KB, USB, CAN-FD, SPI, I2C, USART, 44 GPIOs","nan, nan",nan,$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re.pdf,$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re_reference_maual.pdf,"nan, nan","nan, nan","all, fit: ",QFP:LQFP-48_7mmx7mm_Pitch0.5mm,U,ST:STM32G0B1CBT,LQFP48,reviewed,"nan, nan"
+1.0,X2,"nan, nan","nan, nan","nan, ~", ,"nan, nan",nan,"nan, nan","nan, nan","nan, nan","nan, nan","nan, all",d-sub:D-SUB-9_side,X,d-sub:D-SUB-9_side,"nan, nan","nan, nan","nan, nan"
+1.0,U2,Microchip,MCP1754ST-3302E/MB,MCP1754ST-3302E/MB,"Single LDO, 3.3V, 150mA, 16V, SOT-89, Low Power, -40 .. 150°C, MUYYWW","nan, nan",nan,$PTX_DATASHEETS/datasheets/PowerSupply/Microchip_MCP1754-MCP1754S_LDO.pdf,"nan, nan","nan, nan","nan, nan","all, fit:",TO_SMD:SOT-89,U,microchip:MCP1754ST-3302E/MB,SOT-89,reviewed,"nan, nan"
+3.0,"C4, C3, C5",Multicomp,MC0603B104K500CT,100n,"100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp","nan, nan",nan,http://www.farnell.com/datasheets/1901289.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",Capacitors_SMD:C_0603,C,multicomp:100n,0603,legacy,"nan, nan"
+1.0,U3,NXP,TJA1051T/3,TJA1051T3,"High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package","nan, nan",nan,$PTX_DATASHEETS/datasheets/CAN/NXP-TJA1051-rev09.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",tssop:SOIC-8_3.90mmx4.90mm_Pitch1.27mm,U,nxp:TJA1051T3,SOIC-8_3.90mmx4.90mm_Pitch1.27mm,reviewed,"nan, nan"
+1.0,X3,Tag-Connect,TC2030-NL,TC2030-NL,6-Pin Tag Connect Connector Area [No-BOM],"nan, nan",nan,$PTX_DATASHEETS/datasheets/Connectors/Tag-Connect_TC2030-IDC-NL-Datasheet-Rev-B.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",Connector_Tag-Connect:TC2030-NL,X,tag-connect:TC2030-NL,mfg-specific 6-pin,reviewed,"nan, nan"
+1.0,X1,Würth Elektronik,629722000214,629722000214_pasteInHole,"16-Pin, USB-C, Type C, USB 2.0, 0.8mm PCB, SMD, 5A, Paste in hole","nan, nan",nan,$PTX_DATASHEETS/datasheets/Connectors/Wuerth_629722000214_USB-C_2.0_16Pin.pdf,"nan, nan","nan, nan","nan, nan","all, fit: ",Socket_GCT:USB4105_pasteInHole,X,wuerth:629722000214_pasteInHole,SMD mfg-specific,reviewed,None
+1.0,Y1,Würth Elektronik,830108313809,"830055299, 830108313809","8MHz, Quarz, 30ppm, CL=12pF, 4Pin SMD 3.2mm x 2.5mm, -40°C ...85°C, LFXTAL083138RL3K","nan, nan",nan,$PTX_DATASHEETS/datasheets/Crystal/WE_830108313809_8MHz.pdf,"nan, nan",8MHz,"nan, nan","all, fit: ",crystal:Crystal_4Pin_SMD_3.2mmx2.5mm,Y,wuerth:830108313809,SMD 4Pin Crystal 3.2mm,reviewed,"nan, nan"
+7.0,"C11, C9, P1, P2, R7, R8, U4","DO NOT PLACE"

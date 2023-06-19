@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/candleLightfd-S01.kicad_sch</source>
+    <date>Mon 19 Jun 2023 02:47:46 PM CEST</date>
+    <tool>Eeschema 7.0.5</tool>
+    <textvar name="company">Linux Automation GmbH</textvar>
+    <textvar name="pcb_ci">00</textvar>
+    <textvar name="pcb_variant">01</textvar>
+    <textvar name="prefix">candlelightfd</textvar>
+    <textvar name="release">01</textvar>
+    <textvar name="release_state">release</textvar>
+    <textvar name="sch_ci">00</textvar>
+    <textvar name="sch_variant">01</textvar>
+    <textvar name="short_desciption">candlelightfd</textvar>
+    <textvar name="title">Candlelight FD</textvar>
+    <textvar name="type_number">01</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Candlelight FD</title>
+        <company>Linux Automation GmbH</company>
+        <rev>R01</rev>
+        <date>2023-06-16</date>
+        <source>candleLightfd-S01.kicad_sch</source>
+        <comment number="1" value="release"/>
+        <comment number="2" value="candlelightfd-S01-R01-V01-C00"/>
+        <comment number="3" value="hardware/candlelightfd-S01_candlelightfd"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/">
+      <title_block>
+        <title>MCU</title>
+        <company>Linux Automation GmbH</company>
+        <rev>R01</rev>
+        <date>2023-06-16</date>
+        <source>MCU.kicad_sch</source>
+        <comment number="1" value="release"/>
+        <comment number="2" value="candlelightfd-S01-R01-V01-C00"/>
+        <comment number="3" value="hardware/candlelightfd-S01_candlelightfd"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/">
+      <title_block>
+        <title>Power</title>
+        <company>Linux Automation GmbH</company>
+        <rev>R01</rev>
+        <date>2023-06-16</date>
+        <source>PSU.kicad_sch</source>
+        <comment number="1" value="release"/>
+        <comment number="2" value="candlelightfd-S01-R01-V01-C00"/>
+        <comment number="3" value="hardware/candlelightfd-S01_candlelightfd"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/">
+      <title_block>
+        <title>Transiver</title>
+        <company>Linux Automation GmbH</company>
+        <rev>R01</rev>
+        <date>2023-06-16</date>
+        <source>tranciver.kicad_sch</source>
+        <comment number="1" value="release"/>
+        <comment number="2" value="candlelightfd-S01-R01-V01-C00"/>
+        <comment number="3" value="hardware/candlelightfd-S01_candlelightfd"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>KPT-1608SGC</value>
+      <footprint>LEDs_Kingbright:LED_Kingbright_0603</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">KPT-1608SGC</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Package">0603</field>
+        <field name="State">reviewed</field>
+        <field name="color">green</field>
+      </fields>
+      <libsource lib="Kingbright" part="KPT-1608SGC" description="0603, LED, green, 20mA, 2.2V, 12mcd, 120°"/>
+      <property name="MPN" value="KPT-1608SGC"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="0603"/>
+      <property name="color" value="green"/>
+      <property name="Field10" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="0603, LED, green, 20mA, 2.2V, 12mcd, 120°"/>
+      <property name="ki_keywords" value="0603, LED, green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41bd0902-3a84-461c-8ded-6489b5ec732c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>KPT-1608SGC</value>
+      <footprint>LEDs_Kingbright:LED_Kingbright_0603</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">KPT-1608SGC</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Package">0603</field>
+        <field name="State">reviewed</field>
+        <field name="color">green</field>
+      </fields>
+      <libsource lib="Kingbright" part="KPT-1608SGC" description="0603, LED, green, 20mA, 2.2V, 12mcd, 120°"/>
+      <property name="MPN" value="KPT-1608SGC"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="0603"/>
+      <property name="color" value="green"/>
+      <property name="Field10" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="0603, LED, green, 20mA, 2.2V, 12mcd, 120°"/>
+      <property name="ki_keywords" value="0603, LED, green"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ac1860-72f4-4ff6-992e-e9728a0f4c37</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>KPT-1608EC</value>
+      <footprint>LEDs_Kingbright:LED_Kingbright_0603</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608EC.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">KPT-1608EC</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Package">0603</field>
+        <field name="State">reviewed</field>
+        <field name="color">red</field>
+      </fields>
+      <libsource lib="Kingbright" part="KPT-1608EC" description="0603, LED, red, 20mA, 2.0V, 15mcd, 150°"/>
+      <property name="MPN" value="KPT-1608EC"/>
+      <property name="Manufacturer" value="Kingbright"/>
+      <property name="Package" value="0603"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="color" value="red"/>
+      <property name="Field10" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="0603, LED, red, 20mA, 2.0V, 15mcd, 150°"/>
+      <property name="ki_keywords" value="0603, led, red"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2628380-8ab8-444b-9ec9-61ef17e56046</tstamps>
+    </comp>
+    <comp ref="NB1">
+      <value>LAG_Rocket</value>
+      <footprint>mechanical:lag_rocket_14.5mmx15mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="mechanical" part="LAG_Rocket" description="LAG Rocket on Silkscreen, Solder Mask. Needs a Copper pour in the Back"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="LAG Rocket on Silkscreen, Solder Mask. Needs a Copper pour in the Back"/>
+      <property name="ki_keywords" value="LAG Rocket on Silkscreen, Solder Mask. Needs a Copper pour in the Back"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>453b0514-52eb-484f-81a6-ac9c450ab6bc</tstamps>
+    </comp>
+    <comp ref="NB2">
+      <value>LAYERSTACK_TB</value>
+      <footprint>mechanical:LAYERSTACK_TB</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="mechanical" part="LAYERSTACK_TB" description="Layerstack, 2 Layers, Top Bot"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="Layerstack, 2 Layers, Top Bot"/>
+      <property name="ki_keywords" value="Layerstack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>413a6de3-6444-4b8f-8d8c-738ef54dac4d</tstamps>
+    </comp>
+    <comp ref="NB3">
+      <value>Passermarke_1mm_1.8mmx1.8mm</value>
+      <footprint>mechanical:Passermarke_1mm_1.8mmx1.8mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="mechanical" part="Passermarke_1mm_1.8mmx1.8mm" description="Passermarke, Cu: 1mm, Mask: 1.8mm x 1.8mm"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="Passermarke, Cu: 1mm, Mask: 1.8mm x 1.8mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5564582-dae0-4823-be7d-5f6f467c4dd7</tstamps>
+    </comp>
+    <comp ref="NB4">
+      <value>Passermarke_1mm_1.8mmx1.8mm</value>
+      <footprint>mechanical:Passermarke_1mm_1.8mmx1.8mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="mechanical" part="Passermarke_1mm_1.8mmx1.8mm" description="Passermarke, Cu: 1mm, Mask: 1.8mm x 1.8mm"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="Passermarke, Cu: 1mm, Mask: 1.8mm x 1.8mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f259ea94-0539-4cd1-a783-4f8504fba4e2</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>Connector_generic:Header_1x2_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">generic</field>
+        <field name="Manufacturer">generic</field>
+        <field name="Package">THT 2.54mm 1x2-pin</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="generic-connectors" part="CONN_01X02" description="2.54mm, Header. 2 Pin"/>
+      <property name="Manufacturer" value="generic"/>
+      <property name="MPN" value="generic"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="THT 2.54mm 1x2-pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="2.54mm, Header. 2 Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7c14196-34d7-4adf-a0c9-04e24fb5a002</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5k1_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">5k1</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="5k1_0603_100mW_1%_E24_Chip-Resistor" description="5k1, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="5k1"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="5k1, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2bfd096-21f4-4a8f-b17a-5b2302bcf12a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5k1_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">5k1</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="5k1_0603_100mW_1%_E24_Chip-Resistor" description="5k1, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="5k1"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="5k1, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c102ef7e-9446-4568-9ad7-55d988dccd8a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">1k</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="1k_0603_100mW_1%_E24_Chip-Resistor" description="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="1k"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>260d4ba0-14a5-48ef-86d9-13bd1495d78c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">1k</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="1k_0603_100mW_1%_E24_Chip-Resistor" description="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="1k"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>867945e3-5146-42d7-9ef3-53f2dd234dce</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">1k</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="1k_0603_100mW_1%_E24_Chip-Resistor" description="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="1k"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="1k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cafe11ea-0493-4538-b656-eb10be6078d6</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>629722000214_pasteInHole</value>
+      <footprint>Socket_GCT:USB4105_pasteInHole</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/Connectors/Wuerth_629722000214_USB-C_2.0_16Pin.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">629722000214</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Package">SMD mfg-specific</field>
+        <field name="State">reviewed</field>
+        <field name="Tool">None</field>
+      </fields>
+      <libsource lib="wuerth" part="629722000214_pasteInHole" description="16-Pin, USB-C, Type C, USB 2.0, 0.8mm PCB, SMD, 5A, Paste in hole"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="SMD mfg-specific"/>
+      <property name="Tool" value="None"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="629722000214"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <property name="ki_description" value="16-Pin, USB-C, Type C, USB 2.0, 0.8mm PCB, SMD, 5A, Paste in hole"/>
+      <property name="ki_keywords" value="16-Pin, USB-C, Type C, USB 2.0, 0.8mm PCB, SMD, 5A, Paste in hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>228c42cc-2c0e-426d-9ebd-4f3b59269ffd</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>~</value>
+      <footprint>d-sub:D-SUB-9_side</footprint>
+      <libsource lib="d-sub" part="D-SUB-9_side" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="candleLightfd-S01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55236545-d126-4831-a1dc-809d22ec60f1</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">6p2</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_5Percent_E24_0603_C0G_50V_-40C-125C" part="6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor" description="6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="6p2"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>ddc61bda-0d97-4cb2-a7f1-b1f74f2c8962</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">6p2</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_5Percent_E24_0603_C0G_50V_-40C-125C" part="6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor" description="6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="6p2"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>2768419e-d01c-4e3d-92ab-769bfef41e56</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1901289.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="multicomp" part="100n" description="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="MPN" value="MC0603B104K500CT"/>
+      <property name="Manufacturer" value="Multicomp"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="ki_keywords" value="100nf, 50V"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>d40f3d93-6bd9-4617-86df-f663fac14b97</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1901289.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="multicomp" part="100n" description="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="MPN" value="MC0603B104K500CT"/>
+      <property name="Manufacturer" value="Multicomp"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="ki_keywords" value="100nf, 50V"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>678c2c64-c5be-4b02-b0ba-2f29b06f4daf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1901289.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="multicomp" part="100n" description="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="MPN" value="MC0603B104K500CT"/>
+      <property name="Manufacturer" value="Multicomp"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp"/>
+      <property name="ki_keywords" value="100nf, 50V"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>72d3b2f8-2a7b-4e37-9aff-bbc693f0dbc8</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Connector_generic:Header_1x2_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">generic</field>
+        <field name="Manufacturer">generic</field>
+        <field name="Package">THT 2.54mm 1x2-pin</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="generic-connectors" part="CONN_01X02" description="2.54mm, Header. 2 Pin"/>
+      <property name="Manufacturer" value="generic"/>
+      <property name="MPN" value="generic"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="THT 2.54mm 1x2-pin"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="2.54mm, Header. 2 Pin"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>46da57e5-25eb-4508-9380-e2a611a8e23d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k_0603_100mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DisplayValue">10k</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="10k_0603_100mW_1%_E24_Chip-Resistor" description="10k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="10k"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="10k, 0603, 100mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>7bdb8ef7-f64f-444d-bf4d-40cb9412076c</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TP1.0mm</value>
+      <footprint>Connector_generic:TP1.0mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">SMT TP</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="generic-connectors" part="TP1.0mm" description="PCB SMD Testpoint, 1mm diameter"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="MPN" value="any"/>
+      <property name="State" value="reviewed"/>
+      <property name="Fit" value="fit: "/>
+      <property name="Package" value="SMT TP"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="PCB SMD Testpoint, 1mm diameter"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>b561ca68-657b-4bfc-a1bf-23a379821b3e</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TP1.0mm</value>
+      <footprint>Connector_generic:TP1.0mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">SMT TP</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="generic-connectors" part="TP1.0mm" description="PCB SMD Testpoint, 1mm diameter"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="MPN" value="any"/>
+      <property name="State" value="reviewed"/>
+      <property name="Fit" value="fit: "/>
+      <property name="Package" value="SMT TP"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="PCB SMD Testpoint, 1mm diameter"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>3015b956-649b-4373-acb6-65f1db6829c6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G0B1CBT</value>
+      <footprint>QFP:LQFP-48_7mmx7mm_Pitch0.5mm</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re.pdf</datasheet>
+      <fields>
+        <field name="Datasheet2">$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re_reference_maual.pdf</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">STM32G0B1CBT</field>
+        <field name="Manufacturer">ST</field>
+        <field name="Package">LQFP48</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="ST" part="STM32G0B1CBT" description="Cortex-M0+, ROM: 128KB, RAM: 144KB, USB, CAN-FD, SPI, I2C, USART, 44 GPIOs"/>
+      <property name="Datasheet2" value="$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re_reference_maual.pdf"/>
+      <property name="Manufacturer" value="ST"/>
+      <property name="MPN" value="STM32G0B1CBT"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="LQFP48"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="Cortex-M0+, ROM: 128KB, RAM: 144KB, USB, CAN-FD, SPI, I2C, USART, 44 GPIOs"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>31436657-9dfc-4c50-88e1-528fb38f9aa7 cbf2468e-6d7e-4856-a7d6-39d1138fc0bd 6729eaf5-70ed-456f-b2c8-0c14b12f8b2a bfef1a52-2594-40d1-818a-88ea6f0971cb e82986a2-b2b2-4361-96ed-1670d23e767d 197546b4-a533-4599-b0d4-67473abe9e89</tstamps>
+    </comp>
+    <comp ref="X3">
+      <value>TC2030-NL</value>
+      <footprint>Connector_Tag-Connect:TC2030-NL</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/Connectors/Tag-Connect_TC2030-IDC-NL-Datasheet-Rev-B.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">TC2030-NL</field>
+        <field name="Manufacturer">Tag-Connect</field>
+        <field name="Package">mfg-specific 6-pin</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="tag-connect" part="TC2030-NL" description="6-Pin Tag Connect Connector Area [No-BOM]"/>
+      <property name="Manufacturer" value="Tag-Connect"/>
+      <property name="MPN" value="TC2030-NL"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="mfg-specific 6-pin"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="6-Pin Tag Connect Connector Area [No-BOM]"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>276c8557-e024-4cc7-9047-ae57492a3b55</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>830055299</value>
+      <footprint>crystal:Crystal_4Pin_SMD_3.2mmx2.5mm</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/Crystal/WE_830108313809_8MHz.pdf</datasheet>
+      <fields>
+        <field name="DisplayName">8MHz</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">830108313809</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Package">SMD 4Pin Crystal 3.2mm</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="wuerth" part="830108313809" description="8MHz, Quarz, 30ppm, CL=12pF, 4Pin SMD 3.2mm x 2.5mm, -40°C ...85°C, LFXTAL083138RL3K"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MPN" value="830108313809"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="SMD 4Pin Crystal 3.2mm"/>
+      <property name="DisplayName" value="8MHz"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_description" value="8MHz, Quarz, 30ppm, CL=12pF, 4Pin SMD 3.2mm x 2.5mm, -40°C ...85°C, LFXTAL083138RL3K"/>
+      <sheetpath names="/MCU/" tstamps="/c754f27f-d753-4109-9c59-639a39396c66/"/>
+      <tstamps>c2f1e2a7-a6f6-4712-adb7-cd064cdb93c9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="CapRatedVoltage">10V</field>
+        <field name="DisplayValue">10u</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0805</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C" part="10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor" description="10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="10u"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="10V"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>cf32636e-e8e6-4306-931c-25b762146193</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="CapRatedVoltage">10V</field>
+        <field name="DisplayValue">10u</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0805</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C" part="10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor" description="10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="10u"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="10V"/>
+      <property name="Package" value="0805"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>c9cf2761-58d9-4f83-8468-060d087692f9</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TP2.0mm</value>
+      <footprint>Connector_generic:TP2.0mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">SMD TP</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="generic-connectors" part="TP2.0mm" description="PCB SMD Testpoint, 2mm diameter"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="MPN" value="any"/>
+      <property name="State" value="reviewed"/>
+      <property name="Fit" value="fit: "/>
+      <property name="Package" value="SMD TP"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="PCB SMD Testpoint, 2mm diameter"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>07c25e58-0dcc-4732-9ced-19a63025b3e9</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TP2.0mm</value>
+      <footprint>Connector_generic:TP2.0mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">SMD TP</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="generic-connectors" part="TP2.0mm" description="PCB SMD Testpoint, 2mm diameter"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="MPN" value="any"/>
+      <property name="State" value="reviewed"/>
+      <property name="Fit" value="fit: "/>
+      <property name="Package" value="SMD TP"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="PCB SMD Testpoint, 2mm diameter"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>7cdbc6fe-5acc-4eb3-b401-fd8e43e9061b</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TP2.0mm</value>
+      <footprint>Connector_generic:TP2.0mm</footprint>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">SMD TP</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="generic-connectors" part="TP2.0mm" description="PCB SMD Testpoint, 2mm diameter"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="MPN" value="any"/>
+      <property name="State" value="reviewed"/>
+      <property name="Fit" value="fit: "/>
+      <property name="Package" value="SMD TP"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="PCB SMD Testpoint, 2mm diameter"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>af456a3d-b21e-40d6-ae5b-6d0031a80506</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1754ST-3302E/MB</value>
+      <footprint>TO_SMD:SOT-89</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/PowerSupply/Microchip_MCP1754-MCP1754S_LDO.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit:</field>
+        <field name="MPN">MCP1754ST-3302E/MB</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Package">SOT-89</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="microchip" part="MCP1754ST-3302E/MB" description="Single LDO, 3.3V, 150mA, 16V, SOT-89, Low Power, -40 .. 150°C, MUYYWW"/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="MPN" value="MCP1754ST-3302E/MB"/>
+      <property name="Fit" value="fit:"/>
+      <property name="State" value="reviewed"/>
+      <property name="Package" value="SOT-89"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <property name="ki_description" value="Single LDO, 3.3V, 150mA, 16V, SOT-89, Low Power, -40 .. 150°C, MUYYWW"/>
+      <sheetpath names="/PSU/" tstamps="/6fe590b4-1409-4d29-8211-13c20905936c/"/>
+      <tstamps>d2afbbf1-480d-4e52-83ba-4e9d992669d7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">100n</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0603_X7R_50V_-40C-125C" part="100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor" description="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="100n"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="ki_description" value="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>26bfb0c9-8829-4034-8f01-f9cd3f523ebb</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">100n</field>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0603_X7R_50V_-40C-125C" part="100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor" description="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="100n"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>c54a7a8f-d45e-4e49-9a04-055dcdeae748</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">100n</field>
+        <field name="Fit">fit: </field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0603_X7R_50V_-40C-125C" part="100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor" description="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="100n"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="ki_description" value="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>f8dee829-10fc-4432-8bea-4a8b3600e721</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="DisplayValue">100n</field>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0603</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Cap_10Percent_E24_0603_X7R_50V_-40C-125C" part="100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor" description="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="100n"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="CapRatedVoltage" value="50V"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>f5a0b8e7-d170-407c-9d96-ed219e79efa7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>120R_0805_125mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="DisplayValue">120R</field>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0805</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0805_125mW_-40C-90C" part="120R_0805_125mW_1%_E24_Chip-Resistor" description="120R, 0805, 125mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="120R"/>
+      <property name="Package" value="0805"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="120R, 0805, 125mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>b4688076-3882-4cf1-a4d3-31587b2a7898</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>120R_0805_125mW_1%_E24_Chip-Resistor</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="DisplayValue">120R</field>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="Package">0805</field>
+        <field name="State">legacy</field>
+      </fields>
+      <libsource lib="Res_1Percent_E24_0805_125mW_-40C-90C" part="120R_0805_125mW_1%_E24_Chip-Resistor" description="120R, 0805, 125mW, 1%, E24, Chip Resistor"/>
+      <property name="MPN" value="any"/>
+      <property name="Manufacturer" value="any"/>
+      <property name="DisplayValue" value="120R"/>
+      <property name="Package" value="0805"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="legacy"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="120R, 0805, 125mW, 1%, E24, Chip Resistor"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>bbdfc82a-8ab8-42c4-b994-97a843afeda9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TJA1051T3</value>
+      <footprint>tssop:SOIC-8_3.90mmx4.90mm_Pitch1.27mm</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/CAN/NXP-TJA1051-rev09.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: </field>
+        <field name="MPN">TJA1051T/3</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">SOIC-8_3.90mmx4.90mm_Pitch1.27mm</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="nxp" part="TJA1051T3" description="High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package"/>
+      <property name="Fit" value="fit: "/>
+      <property name="State" value="reviewed"/>
+      <property name="Manufacturer" value="NXP"/>
+      <property name="MPN" value="TJA1051T/3"/>
+      <property name="Package" value="SOIC-8_3.90mmx4.90mm_Pitch1.27mm"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="ki_description" value="High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>e58806b1-1d99-4e75-b638-24ce0457a23e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TJA1051T3</value>
+      <footprint>tssop:SOIC-8_3.90mmx4.90mm_Pitch1.27mm</footprint>
+      <datasheet>$PTX_DATASHEETS/datasheets/CAN/NXP-TJA1051-rev09.pdf</datasheet>
+      <fields>
+        <field name="Fit">fit: none</field>
+        <field name="MPN">TJA1051T/3</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="Package">SOIC-8_3.90mmx4.90mm_Pitch1.27mm</field>
+        <field name="State">reviewed</field>
+      </fields>
+      <libsource lib="nxp" part="TJA1051T3" description="High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package"/>
+      <property name="Fit" value="fit: none"/>
+      <property name="State" value="reviewed"/>
+      <property name="Manufacturer" value="NXP"/>
+      <property name="MPN" value="TJA1051T/3"/>
+      <property name="Package" value="SOIC-8_3.90mmx4.90mm_Pitch1.27mm"/>
+      <property name="Sheetname" value="CAN Transiver"/>
+      <property name="Sheetfile" value="tranciver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package"/>
+      <sheetpath names="/CAN Transiver/" tstamps="/77431ed0-1b80-4c54-96b3-7ca17dd7479a/"/>
+      <tstamps>0a6fbc0c-3771-4bd3-bc30-4559d5cfeab4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Cap_10Percent_E24_0603_X7R_50V_-40C-125C" part="100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor">
+      <description>100n, 0603, X7R, 10%, 50V, -40C .. 125C, Chip Capacitor</description>
+      <footprints>
+        <fp>C_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor</field>
+        <field name="Footprint">Capacitors_SMD:C_0603</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">100n</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C" part="10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor">
+      <description>10u, 0805, X7R, 10%, 10V, -40C .. 125C, Chip Capacitor</description>
+      <footprints>
+        <fp>C_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor</field>
+        <field name="Footprint">Capacitors_SMD:C_0805</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">10u</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="CapRatedVoltage">10V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap_5Percent_E24_0603_C0G_50V_-40C-125C" part="6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor">
+      <description>6p2, 0603, C0G, 5%, 50V, -40C .. 125C, Chip Capacitor</description>
+      <footprints>
+        <fp>C_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">6p2_0603_C0G_5%_50V_-40C..125C_Chip-Capacitor</field>
+        <field name="Footprint">Capacitors_SMD:C_0603</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">6p2</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="CapRatedVoltage">50V</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kingbright" part="KPT-1608EC">
+      <description>0603, LED, red, 20mA, 2.0V, 15mcd, 150°</description>
+      <docs>$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608EC.pdf</docs>
+      <footprints>
+        <fp>LED_Kingbright_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KPT-1608EC</field>
+        <field name="Footprint">LEDs_Kingbright:LED_Kingbright_0603</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608EC.pdf</field>
+        <field name="MPN">KPT-1608EC</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Package">0603</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kingbright" part="KPT-1608SGC">
+      <description>0603, LED, green, 20mA, 2.2V, 12mcd, 120°</description>
+      <docs>$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf</docs>
+      <footprints>
+        <fp>LED_Kingbright_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KPT-1608SGC</field>
+        <field name="Footprint">LEDs_Kingbright:LED_Kingbright_0603</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf</field>
+        <field name="MPN">KPT-1608SGC</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="10k_0603_100mW_1%_E24_Chip-Resistor">
+      <description>10k, 0603, 100mW, 1%, E24, Chip Resistor</description>
+      <footprints>
+        <fp>R_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k_0603_100mW_1%_E24_Chip-Resistor</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">10k</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="1k_0603_100mW_1%_E24_Chip-Resistor">
+      <description>1k, 0603, 100mW, 1%, E24, Chip Resistor</description>
+      <footprints>
+        <fp>R_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k_0603_100mW_1%_E24_Chip-Resistor</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">1k</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Res_1Percent_E24_0603_100mW_-40C-90C" part="5k1_0603_100mW_1%_E24_Chip-Resistor">
+      <description>5k1, 0603, 100mW, 1%, E24, Chip Resistor</description>
+      <footprints>
+        <fp>R_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5k1_0603_100mW_1%_E24_Chip-Resistor</field>
+        <field name="Footprint">Resistors_SMD:R_0603</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">5k1</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Res_1Percent_E24_0805_125mW_-40C-90C" part="120R_0805_125mW_1%_E24_Chip-Resistor">
+      <description>120R, 0805, 125mW, 1%, E24, Chip Resistor</description>
+      <footprints>
+        <fp>R_0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">120R_0805_125mW_1%_E24_Chip-Resistor</field>
+        <field name="Footprint">Resistors_SMD:R_0805</field>
+        <field name="MPN">any</field>
+        <field name="Manufacturer">any</field>
+        <field name="DisplayValue">120R</field>
+        <field name="Package">0805</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ST" part="STM32G0B1CBT">
+      <description>Cortex-M0+, ROM: 128KB, RAM: 144KB, USB, CAN-FD, SPI, I2C, USART, 44 GPIOs</description>
+      <docs>$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re.pdf</docs>
+      <footprints>
+        <fp>QFP:LQFP-48_7mmx7mm_Pitch0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G0B1CBT</field>
+        <field name="Footprint">QFP:LQFP-48_7mmx7mm_Pitch0.5mm</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re.pdf</field>
+        <field name="Datasheet2">$PTX_DATASHEETS/datasheets/Microcontroller/STW_stm32g0b1re_reference_maual.pdf</field>
+        <field name="Manufacturer">ST</field>
+        <field name="MPN">STM32G0B1CBT</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Package">LQFP48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC13" type="bidirectional"/>
+        <pin num="2" name="PC14/OSC32_IN" type="bidirectional"/>
+        <pin num="3" name="PC15/OSC32_OUT" type="bidirectional"/>
+        <pin num="4" name="VBAT" type="power_in"/>
+        <pin num="5" name="VREF+" type="power_in"/>
+        <pin num="6" name="VDD/VDDA" type="power_in"/>
+        <pin num="7" name="VSS/VSSA" type="power_in"/>
+        <pin num="8" name="PF0/OSC_IN" type="bidirectional"/>
+        <pin num="9" name="PF1/OSC_OUT" type="bidirectional"/>
+        <pin num="10" name="PF2/NRST" type="bidirectional"/>
+        <pin num="11" name="PA0" type="bidirectional"/>
+        <pin num="12" name="PA1" type="bidirectional"/>
+        <pin num="13" name="PA2" type="bidirectional"/>
+        <pin num="14" name="PA3" type="bidirectional"/>
+        <pin num="15" name="PA4" type="bidirectional"/>
+        <pin num="16" name="PA5" type="bidirectional"/>
+        <pin num="17" name="PA6" type="bidirectional"/>
+        <pin num="18" name="PA7" type="bidirectional"/>
+        <pin num="19" name="PB0" type="bidirectional"/>
+        <pin num="20" name="PB1" type="bidirectional"/>
+        <pin num="21" name="PB2" type="bidirectional"/>
+        <pin num="22" name="PB10" type="bidirectional"/>
+        <pin num="23" name="PB11" type="bidirectional"/>
+        <pin num="24" name="PB12" type="bidirectional"/>
+        <pin num="25" name="PB13" type="bidirectional"/>
+        <pin num="26" name="PB14" type="bidirectional"/>
+        <pin num="27" name="PB15" type="bidirectional"/>
+        <pin num="28" name="PA8" type="bidirectional"/>
+        <pin num="29" name="PA9" type="bidirectional"/>
+        <pin num="30" name="PC6" type="bidirectional"/>
+        <pin num="31" name="PC7" type="bidirectional"/>
+        <pin num="32" name="PA10" type="bidirectional"/>
+        <pin num="33" name="PA11[PA9]" type="bidirectional"/>
+        <pin num="34" name="PA12[PA10]" type="bidirectional"/>
+        <pin num="35" name="PA13" type="bidirectional"/>
+        <pin num="36" name="PA14/BOOT0" type="bidirectional"/>
+        <pin num="37" name="PA15" type="bidirectional"/>
+        <pin num="38" name="PD0" type="bidirectional"/>
+        <pin num="39" name="PD1" type="bidirectional"/>
+        <pin num="40" name="PD2" type="bidirectional"/>
+        <pin num="41" name="PD3" type="bidirectional"/>
+        <pin num="42" name="PB3" type="bidirectional"/>
+        <pin num="43" name="PB4" type="bidirectional"/>
+        <pin num="44" name="PB5" type="bidirectional"/>
+        <pin num="45" name="PB6" type="bidirectional"/>
+        <pin num="46" name="PB7" type="bidirectional"/>
+        <pin num="47" name="PB8" type="bidirectional"/>
+        <pin num="48" name="PB9" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="d-sub" part="D-SUB-9_side">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">d-sub:D-SUB-9_side</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="generic-connectors" part="CONN_01X02">
+      <description>2.54mm, Header. 2 Pin</description>
+      <footprints>
+        <fp>Header_1x2_Pitch2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+        <field name="Footprint">Connector_generic:Header_1x2_Pitch2.54mm</field>
+        <field name="Manufacturer">generic</field>
+        <field name="MPN">generic</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="Package">THT 2.54mm 1x2-pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="generic-connectors" part="TP1.0mm">
+      <description>PCB SMD Testpoint, 1mm diameter</description>
+      <footprints>
+        <fp>TP1.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP1.0mm</field>
+        <field name="Footprint">Connector_generic:TP1.0mm</field>
+        <field name="Manufacturer">any</field>
+        <field name="MPN">any</field>
+        <field name="State">reviewed</field>
+        <field name="Fit">fit: </field>
+        <field name="Package">SMT TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="generic-connectors" part="TP2.0mm">
+      <description>PCB SMD Testpoint, 2mm diameter</description>
+      <footprints>
+        <fp>TP2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP2.0mm</field>
+        <field name="Footprint">Connector_generic:TP2.0mm</field>
+        <field name="Manufacturer">any</field>
+        <field name="MPN">any</field>
+        <field name="State">reviewed</field>
+        <field name="Fit">fit: </field>
+        <field name="Package">SMD TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mechanical" part="LAG_Rocket">
+      <description>LAG Rocket on Silkscreen, Solder Mask. Needs a Copper pour in the Back</description>
+      <footprints>
+        <fp>mechanical:lag_rocket_14.5mmx15mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NB</field>
+        <field name="Value">LAG_Rocket</field>
+        <field name="Footprint">mechanical:lag_rocket_14.5mmx15mm</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+    </libpart>
+    <libpart lib="mechanical" part="LAYERSTACK_TB">
+      <description>Layerstack, 2 Layers, Top Bot</description>
+      <footprints>
+        <fp>LAYERSTACK_TMMB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NB</field>
+        <field name="Value">LAYERSTACK_TB</field>
+        <field name="Footprint">mechanical:LAYERSTACK_TB</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+      </fields>
+    </libpart>
+    <libpart lib="mechanical" part="Passermarke_1mm_1.8mmx1.8mm">
+      <description>Passermarke, Cu: 1mm, Mask: 1.8mm x 1.8mm</description>
+      <footprints>
+        <fp>Passermarke_1mm_1.8mmx1.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NB</field>
+        <field name="Value">Passermarke_1mm_1.8mmx1.8mm</field>
+        <field name="Footprint">mechanical:Passermarke_1mm_1.8mmx1.8mm</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+      </fields>
+    </libpart>
+    <libpart lib="microchip" part="MCP1754ST-3302E/MB">
+      <description>Single LDO, 3.3V, 150mA, 16V, SOT-89, Low Power, -40 .. 150°C, MUYYWW</description>
+      <docs>$PTX_DATASHEETS/datasheets/PowerSupply/Microchip_MCP1754-MCP1754S_LDO.pdf</docs>
+      <footprints>
+        <fp>TO_SMD:SOT-89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1754ST-3302E/MB</field>
+        <field name="Footprint">TO_SMD:SOT-89</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/PowerSupply/Microchip_MCP1754-MCP1754S_LDO.pdf</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="MPN">MCP1754ST-3302E/MB</field>
+        <field name="Fit">fit:</field>
+        <field name="State">reviewed</field>
+        <field name="Package">SOT-89</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="multicomp" part="100n">
+      <description>100nF, 50V, 10%, X7R, 0603, MLCC, Multicomp</description>
+      <docs>http://www.farnell.com/datasheets/1901289.pdf</docs>
+      <footprints>
+        <fp>C_0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">Capacitors_SMD:C_0603</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1901289.pdf</field>
+        <field name="MPN">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Fit">fit: </field>
+        <field name="State">legacy</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nxp" part="TJA1051T3">
+      <description>High-speed CAN transceiver, Dual 3,3V / 5V voltage inputs, SO-8 Package</description>
+      <docs>$PTX_DATASHEETS/datasheets/CAN/NXP-TJA1051-rev09.pdf</docs>
+      <footprints>
+        <fp>SOIC-8_3.90mmx4.90mm_Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TJA1051T3</field>
+        <field name="Footprint">tssop:SOIC-8_3.90mmx4.90mm_Pitch1.27mm</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/CAN/NXP-TJA1051-rev09.pdf</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Manufacturer">NXP</field>
+        <field name="MPN">TJA1051T/3</field>
+        <field name="Package">SOIC-8_3.90mmx4.90mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="open_collector"/>
+        <pin num="7" name="CANH" type="open_emitter"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tag-connect" part="TC2030-NL">
+      <description>6-Pin Tag Connect Connector Area [No-BOM]</description>
+      <docs>$PTX_DATASHEETS/datasheets/Connectors/Tag-Connect_TC2030-IDC-NL-Datasheet-Rev-B.pdf</docs>
+      <footprints>
+        <fp>TC2030-NL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TC2030-NL</field>
+        <field name="Footprint">Connector_Tag-Connect:TC2030-NL</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/Connectors/Tag-Connect_TC2030-IDC-NL-Datasheet-Rev-B.pdf</field>
+        <field name="Manufacturer">Tag-Connect</field>
+        <field name="MPN">TC2030-NL</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Package">mfg-specific 6-pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P4" type="passive"/>
+        <pin num="6" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wuerth" part="629722000214_pasteInHole">
+      <description>16-Pin, USB-C, Type C, USB 2.0, 0.8mm PCB, SMD, 5A, Paste in hole</description>
+      <docs>$PTX_DATASHEETS/datasheets/Connectors/Wuerth_629722000214_USB-C_2.0_16Pin.pdf</docs>
+      <footprints>
+        <fp>Socket_GCT:USB4105_pasteInHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">629722000214_pasteInHole</field>
+        <field name="Footprint">Socket_GCT:USB4105_pasteInHole</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/Connectors/Wuerth_629722000214_USB-C_2.0_16Pin.pdf</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Package">SMD mfg-specific</field>
+        <field name="Tool">None</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="MPN">629722000214</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="DP1" type="passive"/>
+        <pin num="A7" name="DN1" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="DP2" type="passive"/>
+        <pin num="B7" name="DN2" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="SH" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wuerth" part="830108313809">
+      <description>8MHz, Quarz, 30ppm, CL=12pF, 4Pin SMD 3.2mm x 2.5mm, -40°C ...85°C, LFXTAL083138RL3K</description>
+      <docs>$PTX_DATASHEETS/datasheets/Crystal/WE_830108313809_8MHz.pdf</docs>
+      <footprints>
+        <fp>Crystal_4Pin_SMD_3.2mmx2.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">830108313809</field>
+        <field name="Footprint">crystal:Crystal_4Pin_SMD_3.2mmx2.5mm</field>
+        <field name="Datasheet">$PTX_DATASHEETS/datasheets/Crystal/WE_830108313809_8MHz.pdf</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="MPN">830108313809</field>
+        <field name="Fit">fit: </field>
+        <field name="State">reviewed</field>
+        <field name="Package">SMD 4Pin Crystal 3.2mm</field>
+        <field name="DisplayName">8MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C_{1}" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="C_{2}" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Cap_10Percent_E24_0603_X7R_50V_-40C-125C">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Cap_10Percent_E24_0603_X7R_50V_-40C-125C.kicad_sym</uri>
+    </library>
+    <library logical="Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C.kicad_sym</uri>
+    </library>
+    <library logical="Cap_5Percent_E24_0603_C0G_50V_-40C-125C">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Cap_5Percent_E24_0603_C0G_50V_-40C-125C.kicad_sym</uri>
+    </library>
+    <library logical="Kingbright">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Kingbright.kicad_sym</uri>
+    </library>
+    <library logical="Res_1Percent_E24_0603_100mW_-40C-90C">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Res_1Percent_E24_0603_100mW_-40C-90C.kicad_sym</uri>
+    </library>
+    <library logical="Res_1Percent_E24_0805_125mW_-40C-90C">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/Res_1Percent_E24_0805_125mW_-40C-90C.kicad_sym</uri>
+    </library>
+    <library logical="ST">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/ST.kicad_sym</uri>
+    </library>
+    <library logical="d-sub">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./lib/sym/d-sub.kicad_sym</uri>
+    </library>
+    <library logical="generic-connectors">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/generic-connectors.kicad_sym</uri>
+    </library>
+    <library logical="mechanical">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/mechanical.kicad_sym</uri>
+    </library>
+    <library logical="microchip">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/microchip.kicad_sym</uri>
+    </library>
+    <library logical="multicomp">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/multicomp.kicad_sym</uri>
+    </library>
+    <library logical="nxp">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/nxp.kicad_sym</uri>
+    </library>
+    <library logical="tag-connect">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/tag-connect.kicad_sym</uri>
+    </library>
+    <library logical="wuerth">
+      <uri>/home/jma/projects-new/iobus/candlelight/candleLightfd-S01/./kicad-ptx-lib/lib/wuerth.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VREF+" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VDD/VDDA" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U3" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="X3" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="X1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="P1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="X2" pin="9" pintype="passive"/>
+    </net>
+    <net code="4" name="/CAN Transiver/CAN1_RX">
+      <node ref="U1" pin="38" pinfunction="PD0" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="5" name="/CAN Transiver/CAN1_S">
+      <node ref="U1" pin="37" pinfunction="PA15" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="6" name="/CAN Transiver/CAN1_TX">
+      <node ref="U1" pin="39" pinfunction="PD1" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="7" name="/CAN Transiver/CAN2_RX">
+      <node ref="U1" pin="19" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="8" name="/CAN Transiver/CAN2_S">
+      <node ref="U1" pin="21" pinfunction="PB2" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="9" name="/CAN Transiver/CAN2_TX">
+      <node ref="U1" pin="20" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="10" name="/CAN1_H">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="CANH" pintype="open_emitter"/>
+      <node ref="X2" pin="7" pintype="passive"/>
+    </net>
+    <net code="11" name="/CAN1_L">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="CANL" pintype="open_collector"/>
+      <node ref="X2" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/CAN2_H">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="CANH" pintype="open_emitter"/>
+      <node ref="X2" pin="8" pintype="passive"/>
+    </net>
+    <net code="13" name="/CAN2_L">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="CANL" pintype="open_collector"/>
+      <node ref="X2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/MCU/LED_RX">
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/MCU/LED_TX">
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/MCU/NRST">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PF2/NRST" pintype="bidirectional"/>
+      <node ref="X3" pin="5" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="17" name="/MCU/RX">
+      <node ref="TP4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/MCU/SWCLK">
+      <node ref="P2" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PA14/BOOT0" pintype="bidirectional"/>
+      <node ref="X3" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="19" name="/MCU/SWDIO">
+      <node ref="U1" pin="35" pinfunction="PA13" pintype="bidirectional"/>
+      <node ref="X3" pin="4" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="20" name="/MCU/TX">
+      <node ref="TP5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SH">
+      <node ref="X2" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="/USB_N">
+      <node ref="U1" pin="33" pinfunction="PA11[PA9]" pintype="bidirectional"/>
+      <node ref="X1" pin="A7" pinfunction="DN1" pintype="passive"/>
+      <node ref="X1" pin="B7" pinfunction="DN2" pintype="passive"/>
+    </net>
+    <net code="23" name="/USB_P">
+      <node ref="U1" pin="34" pinfunction="PA12[PA10]" pintype="bidirectional"/>
+      <node ref="X1" pin="A6" pinfunction="DP1" pintype="passive"/>
+      <node ref="X1" pin="B6" pinfunction="DP2" pintype="passive"/>
+    </net>
+    <net code="24" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VSS/VSSA" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="X1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="X1" pin="SH" pinfunction="Shield" pintype="passive"/>
+      <node ref="X2" pin="3" pintype="passive"/>
+      <node ref="X2" pin="6" pintype="passive"/>
+      <node ref="X3" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D1-A)">
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D2-A)">
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D3-A)">
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(U1F-PF0{slash}OSC_IN)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PF0/OSC_IN" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="C_{2}" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U1F-PF1{slash}OSC_OUT)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PF1/OSC_OUT" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="C_{1}" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(X1-CC1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="X1" pin="A5" pinfunction="CC1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(X1-CC2)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="X1" pin="B5" pinfunction="CC2" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U1A-PA0-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1A-PA1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1A-PA2-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1A-PA5-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1A-PA6-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1A-PA7-Pad18)">
+      <node ref="U1" pin="18" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1A-PA8-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PA8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1B-PB3-Pad42)">
+      <node ref="U1" pin="42" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1B-PB4-Pad43)">
+      <node ref="U1" pin="43" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1B-PB5-Pad44)">
+      <node ref="U1" pin="44" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1B-PB6-Pad45)">
+      <node ref="U1" pin="45" pinfunction="PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1B-PB7-Pad46)">
+      <node ref="U1" pin="46" pinfunction="PB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1B-PB8-Pad47)">
+      <node ref="U1" pin="47" pinfunction="PB8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1B-PB9-Pad48)">
+      <node ref="U1" pin="48" pinfunction="PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1B-PB10-Pad22)">
+      <node ref="U1" pin="22" pinfunction="PB10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1B-PB11-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PB11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1B-PB12-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1B-PB13-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1B-PB14-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1B-PB15-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1C-PC6-Pad30)">
+      <node ref="U1" pin="30" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1C-PC7-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1C-PC13-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1C-PC14{slash}OSC32_IN-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PC14/OSC32_IN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1C-PC15{slash}OSC32_OUT-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PC15/OSC32_OUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1D-PD2-Pad40)">
+      <node ref="U1" pin="40" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1D-PD3-Pad41)">
+      <node ref="U1" pin="41" pinfunction="PD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(X1-SBU1-PadA8)">
+      <node ref="X1" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(X1-SBU2-PadB8)">
+      <node ref="X1" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(X2-Pad4)">
+      <node ref="X2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(X3-P4-Pad6)">
+      <node ref="X3" pin="6" pinfunction="P4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

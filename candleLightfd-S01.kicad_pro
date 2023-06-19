@@ -444,7 +444,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "release/candlelightfd-S01-R01/candlelightfd-S01-R01-V01/cad/candleLightfd-S01.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
@@ -521,7 +521,7 @@
     "pcb_variant": "01",
     "prefix": "candlelightfd",
     "release": "01",
-    "release_state": "draft",
+    "release_state": "release",
     "sch_ci": "00",
     "sch_variant": "01",
     "short_desciption": "candlelightfd",

@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*%
+%TF.CreationDate,2023-06-19T14:48:11+02:00*%
+%TF.ProjectId,candleLightfd-S01,63616e64-6c65-44c6-9967-687466642d53,R01*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Glue,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2023-06-19 14:48:11*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

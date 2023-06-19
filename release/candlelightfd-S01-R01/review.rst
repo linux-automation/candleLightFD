@@ -125,11 +125,11 @@ Testing
 Create release
 ##############
 
-* [ ] Have Vias been untented? (jma's KiCAD-plugin: https://gitlab.pengutronix.de/jma/kicad_plugins)
-* [ ] Have Planes been rebuilt? (use shortcut B in PCBNEW)
+* [x] Have Vias been untented? (jma's KiCAD-plugin: https://gitlab.pengutronix.de/jma/kicad_plugins)
+* [x] Have Planes been rebuilt? (use shortcut B in PCBNEW)
 
-* [ ] Change Status from Draft to Release
-* [ ] Create new folder in release
+* [x] Change Status from Draft to Release
+* [x] Create new folder in release
 * [ ] Add release to release management (https://gitlab.pengutronix.de/hardware/release_management)
 
 
@@ -139,17 +139,17 @@ Manufacturing Data
 Directory structure is defined here:
   https://wiki.pengutronix.de/manual/devel/hardware/kicad-project.html
 
-* [ ] Call `release_generator.py <release_tag>`
+* [x] Call `release_generator.py <release_tag>`
 
 * Assembly:
-  * [ ] Convert the -extended.bom.csv to .xlsx for manufacturing.
+  * [x] Convert the -extended.bom.csv to .xlsx for manufacturing.
 
-  * ( ) Optional: List of BOM changes:
-        * [ ] Use tools/bom/bom_diff.sh prev-bom.csv cur-bom.csv | aha > bom-diff.html
+  * (-) Optional: List of BOM changes:
+        * [-] Use tools/bom/bom_diff.sh prev-bom.csv cur-bom.csv | aha > bom-diff.html
               to generate a list of changes to the BOM between revisions.
-        * [ ] Sanity-Check the listed changes to the bom.
+        * [-] Sanity-Check the listed changes to the bom.
 
-  * [ ] Interactive HTML BOM:
+  * [x] Interactive HTML BOM:
         PCBNEW -> Interactive HTML BOM
         Settings:
         * Activate: "Incldue Tracks/zones"
@@ -167,23 +167,23 @@ Directory structure is defined here:
       * Deactivate "Do not tent vias"
       * Activate "Check zone files before plotting"
       * Layers:
-        * [ ] Cu-Layers depending on Project
-        * [ ] Paste
-        * [ ] Silkscreen
-        * [ ] Mask
-        * [ ] Uwgs. User (if containing e.g. Size of PCB)
-        * [ ] Edge.Cuts
-        * [ ] Fab and CrtYrd -layer
+        * [x] Cu-Layers depending on Project
+        * [x] Paste
+        * [x] Silkscreen
+        * [x] Mask
+        * [x] Uwgs. User (if containing e.g. Size of PCB)
+        * [x] Edge.Cuts
+        * [x] Fab and CrtYrd -layer
   * 3D Render of PCB as JPG:
     * Output into a directory like:
       ./release/name-S01-R01/name-P01-R01-V01/
     * PCBNEW -> 3D-View -> File -> 'Export Current ciew as JPEG'
     * Settings:
       * Set Silk and Mask color according to layer stack
-    * [ ] One Render that shows the PCBA from TOP
-    * [ ] One Render that shows the PCBA from BOT
-    * ( ) Optionally: Renderings that show important details
-  * [ ] Test-Data for flying probe:
+    * [x] One Render that shows the PCBA from TOP
+    * [x] One Render that shows the PCBA from BOT
+    * (x) Optionally: Renderings that show important details
+  * [x] Test-Data for flying probe:
     * Output into a directory like:
       ./release/name-S01-R01/name-P01-R01-V01/cad/
     * \*.cad
