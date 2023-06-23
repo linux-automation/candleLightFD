@@ -1,0 +1,26 @@
+Drill report for candleLightfd-S01_3x3.kicad_pcb
+Created on Fri 23 Jun 2023 14:23:12 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'candleLightfd-S01_3x3-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (288 holes)
+    T2  0.600mm  0.0236"  (36 holes)  (with 36 slots)
+    T3  1.000mm  0.0394"  (36 holes)
+
+    Total plated holes count 360
+
+
+Drill file 'candleLightfd-S01_3x3-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (18 holes)
+    T2  0.991mm  0.0390"  (27 holes)
+
+    Total unplated holes count 45

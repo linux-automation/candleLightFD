@@ -1,0 +1,2 @@
+ /home/chris/.var/app/org.kicad.KiCad/data/python/bin/kikit panelize --layout 'grid; rows: 3; cols: 3; vspace: 2.6mm; hspace: 3mm' --tabs 'annotation' --framing 'railstb; width: 5mm; space: 2.6mm;' --fiducials '4fid; hoffset: 5mm; voffset: 2.5mm; coppersize: 1mm; opening: 1mm;' candleLightfd-S01.kicad_pcb release/candlelightfd-S01-R01/candlelightfd-P01-R01-V01/panel_3x3/candleLightfd-S01_3x3.kicad_pcb
+

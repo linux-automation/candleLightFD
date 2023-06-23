@@ -1,4 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "d-sub")(type "KiCad")(uri "${KIPRJMOD}/./lib/sym/d-sub.kicad_sym")(options "")(descr ""))
   (lib (name "Ettinger")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/lib/Ettinger.kicad_sym")(options "")(descr ""))
   (lib (name "Cap_5Percent_E24_0603_C0G_50V_-40C-125C")(type "KiCad")(uri "${KIPRJMOD}/./kicad-ptx-lib/lib/Cap_5Percent_E24_0603_C0G_50V_-40C-125C.kicad_sym")(options "")(descr ""))
