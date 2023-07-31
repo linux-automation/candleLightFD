@@ -2153,7 +2153,7 @@
     (property "Reference" "Y1" (at 134.62 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "830055299" (at 119.38 107.95 0)
+    (property "Value" "830108313809" (at 119.38 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "crystal:Crystal_4Pin_SMD_3.2mmx2.5mm" (at 123.825 109.855 0)
