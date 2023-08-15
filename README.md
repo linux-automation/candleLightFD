@@ -44,3 +44,12 @@ CAN is provided on the industry standard D-SUB9 pinout:
 Release Notes:
 
   * Initial release of the candleLight FD.
+
+## Firmware
+
+The firmware is based on the [candleLight_fw](https://github.com/candle-usb/candleLight_fw).
+Select the board config `BOARD_candleLightFD` when building the firmware.
+
+> **_NOTE_**: We are currently upstreaming our changes to the *candleLight_fw* repository.
+> While doing so you can find our sources 
+> [here](https://github.com/linux-automation/candleLight_fw/tree/topic/candleLightFD).
