@@ -53,3 +53,33 @@ Select the board config `BOARD_candleLightFD` when building the firmware.
 > **_NOTE_**: We are currently upstreaming our changes to the *candleLight_fw* repository.
 > While doing so you can find our sources 
 > [here](https://github.com/linux-automation/candleLight_fw/tree/topic/candleLightFD).
+
+## Programming and Debugging
+
+Everyday programming can be done via USB.
+Simply invoke `dfu-util` while the device is running.
+More information on flashing can be found in the
+[firmware repository](https://github.com/candle-usb/candleLight_fw#flashing).
+
+In case the device is bricked: Short the two pins labeled *BOOT* while powering on
+the device.
+The CPU will start in *serial download mode*.
+
+For debugging a single wire interface is exposed on X3.
+It can be connected using a [Tag Connect TC2030-IDC-NL](https://www.tag-connect.com/product/tc2030-idc-nl)
+adapter.
+The pinout is derived from the CandleLight.
+
+The pinout is:
+
+    * Pin 1: 3V3
+    * Pin 2: SWCLK
+    * Pin 3: GND
+    * Pin 4: SWDIO
+    * Pin 5: NRST
+    * Pin 6: (not connected)
+
+This picture shows X3 on the device.
+X3 is the connector in the lower left corner - below the USB-C connector.
+
+![candleLight X3](./release/candlelightfd-S01-R01/candleLightfd-S01-R01_X3.png)
